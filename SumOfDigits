@@ -1,0 +1,10 @@
+#Input any number
+
+n=[]
+n = input()
+sum=0
+for x in n:
+    sum = sum + int(x)
+print(sum)
+
+#Output is the sum of the digits of the number
